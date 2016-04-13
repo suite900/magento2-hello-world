@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<page layout="1column"> 
+	<head>
+		<title>Hello World Title</title>
+	</head> 
+	
+		<referenceBlock name="content">
+	        <block
+	            template="content.phtml"
+	            class="Suite900\Hello\Block\Main"
+	            name="pulsestorm_helloworld_mvvm"/>
+	    </referenceBlock>
+     
+    
+</page>  
