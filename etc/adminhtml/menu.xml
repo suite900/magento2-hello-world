@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config>
+	<menu>
+		<add id="Suite900_Hello::menu" title="S900 Menu" sortOrder="20" module="Suite900_Hello" resource="Suite900_Hello::menu"/>
+		<add id="Suite900_Hello::team" title="Team" sortOrder="20" module="Suite900_Hello" parent="Suite900_Hello::menu" resource="Suite900_Hello::menu_team" />
+		<add id="Suite900_Hello::team_dev" title="Development" module="Suite900_Hello" parent="Suite900_Hello::team" resource="Suite900_Hello::menu_team_dev" />
+		<add id="Suite900_Hello::team_seo" title="SEO" module="Suite900_Hello" parent="Suite900_Hello::team" resource="Suite900_Hello::menu_team_seo" />
+		<add id="Suite900_Heloo::team_management" title="Management" module="Suite900_Hello" parent="Suite900_Hello::team" resource="Suite900_Hello::menu_team_management"/>
+	</menu>
+</config>

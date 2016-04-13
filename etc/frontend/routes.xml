@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config>
+	<router id="standard">
+		<route id="helloworld" frontName="helloworld">
+			<module name="Suite900_Hello" />
+		</route>
+	</router>
+</config>
