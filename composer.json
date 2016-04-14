@@ -1,6 +1,6 @@
 {
 	"name": "suite900/magento2-hello-world",
-	"description": "N/A",
+	"description": "Magento 2 basic module development tutorial",
 	"require": {
 		"magento/module-config": "100.0.*",
         "magento/module-store": "100.0.*",
